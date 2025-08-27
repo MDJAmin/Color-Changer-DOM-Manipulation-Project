@@ -7,4 +7,5 @@ form.addEventListener("submit", function (e) {
   document.querySelector(".div").style.backgroundColor = inpColor;
 
   document.querySelector(".tx").style.color = inpText;
+  document.querySelector(".MDJAmin").style.color = inpText;
 });
