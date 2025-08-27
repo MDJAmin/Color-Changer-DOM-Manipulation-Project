@@ -2,16 +2,9 @@ const form = document.querySelector(".form");
 form.addEventListener("submit", function (e) {
   e.preventDefault();
   let inpColor = document.querySelector(".inp-color").value;
-  let inptext = document.querySelector(".inp-text").value;
+  let inpText = document.querySelector(".inp-text").value;
 
-  document.querySelector(".divm").style.backgroundColor = inpColor;
+  document.querySelector(".div").style.backgroundColor = inpColor;
 
-  document.querySelector(".tx").style.color = inptext;
+  document.querySelector(".tx").style.color = inpText;
 });
-
-// confirm.length.toExponential
-// document.querySelector
-// ('.p').style=inptext})
-// <div class="divm">
-
-// <p class="tx">
